@@ -1,23 +1,23 @@
 {
   "name": "aarjanadhikari-nocturne-vscode",
-  "displayName": "Nocturne",
-  "description": "A modern midnight VS Code theme featuring deep graphite backgrounds, soft white typography, and subtle royal navy accents based on the Ayu Mirage theme.",
-  "version": "0.0.2",
+  "displayName": "Nocturne Theme",
+  "description": "A modern midnight VS Code theme featuring deep black backgrounds, soft white typography, cyan highlights, and golden accents based on Ayu Mirage theme.",
+  "version": "0.1.0",
   "publisher": "aarjanadhikari",
   "license": "MIT",
   "engines": {
-    "vscode": "^1.109.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
     "Themes"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/aarjanadhikari-nocturne-vscode"
+    "url": "https://github.com/AarjanAdhikari/Nocturne-Theme"
   },
-  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/aarjanadhikari-nocturne-vscode",
+  "homepage": "https://github.com/AarjanAdhikari/Nocturne-Theme",
   "bugs": {
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/aarjanadhikari-nocturne-vscode/issues"
+    "url": "https://github.com/AarjanAdhikari/Nocturne-Theme/issues"
   },
   "contributes": {
     "themes": [
@@ -27,5 +27,9 @@
         "path": "./themes/Nocturne Theme-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
   }
 }
