@@ -1,9 +1,9 @@
 {
-  "name": "aarjanadhikari-nocturne-vscode",
+  "name": "nocturne-vscode",
   "displayName": "Nocturne Theme",
   "description": "A modern midnight VS Code theme featuring deep black backgrounds, soft white typography, cyan highlights, and golden accents based on Ayu Mirage theme.",
   "version": "0.1.0",
-  "publisher": "aarjanadhikari",
+  "publisher": "Aarjan Adhikari",
   "license": "MIT",
   "engines": {
     "vscode": "^1.80.0"
