@@ -2,6 +2,8 @@
 
 A royal, modern dark theme for Visual Studio Code.
 
+![Project Preview](icon.png)
+
 ## Features
 
 • Deep midnight background  
