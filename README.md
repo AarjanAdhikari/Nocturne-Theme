@@ -1,33 +1,58 @@
-# Nocturne Theme
-
-A royal, modern dark theme for Visual Studio Code.
 
 ![Project Preview](preview.png)
 
-## Features
+# Nocturne
 
-• Deep midnight background  
-• Soft white foreground  
-• Royal navy accents  
-• Minimal, clean, and distraction-free  
-• Carefully balanced syntax colors  
+A minimal dark theme for Visual Studio Code.
 
-Designed for developers who prefer a premium dark coding experience.
-
----
+Nocturne is designed to provide a consistent, distraction-free development experience with carefully balanced colors, comfortable contrast, and refined syntax highlighting.
 
 ## Installation
-*Requires VS Code version 1.80 or later*
 
-### From VSIX
-1. Open VS Code
-2. Go to Extensions
-3. Click the three dots (⋯)
-4. Choose "Install from VSIX"
-5. Select the file
+```bash
+npm install -g @aarjan/nocturne
+```
 
----
+or install the extension directly from the Visual Studio Code Marketplace.
+
+## Features
+
+- Deep midnight color palette
+- Carefully balanced syntax highlighting
+- Optimized contrast for long coding sessions
+- Consistent editor and workbench styling
+- Minimal visual noise
+
+## Screenshots
+
+> Add screenshots here.
+
+## Development
+
+Clone the repository.
+
+```bash
+git clone https://github.com/AarjanAdhikari/nocturne.git
+```
+
+Install dependencies.
+
+```bash
+npm install
+```
+
+Build the extension.
+
+```bash
+npm run build
+```
+
+Package the extension.
+
+```bash
+npm run package
+```
 
 ## License
 
-MIT License © 2026 Aarjan Adhikari
+MIT © Aarjan Adhikari
